@@ -3,6 +3,7 @@ using NUnit.Framework;
 using MainPart.Files;
 using Moq;
 using System.Collections.Generic;
+using UnitTestForLib;
 
 [TestFixture]
 class ClassForTest1Test
