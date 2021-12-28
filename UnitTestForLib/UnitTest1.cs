@@ -7,16 +7,21 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Threading;
 using System;
+using TestGeneratorLib;
 
 namespace UnitTestForLib
 {
     public class Tests
     {
+        public static int i = 0;
         string Path = @"C:\Users\Lenovo\OneDrive - bsuir.by\Рабочий стол\TestGenerator-master\UnitTestForLib\Files";
-        string PathToFolder = @"C:\Users\Lenovo\OneDrive - bsuir.by\Рабочий стол\TestGenerator-master\\Generated\";
+
+        string PathToFolder =
+            @"C:\Users\Lenovo\OneDrive - bsuir.by\Рабочий стол\TestGenerator-master\UnitTestForLib\Generated\";
 
         IEnumerable<string> files;
         string[] generatedFiles;
+        ITestGenerator gen;
 
         [SetUp]
         public void Setup()
@@ -27,7 +32,7 @@ namespace UnitTestForLib
         [Test]
         public void FilesNumber()
         {
-            Assert.AreEqual(files.Count(),2,"Another nuber of files");
+            Assert.AreEqual(files.Count(), 2, "Another nuber of files");
         }
 
         [Test]
@@ -37,12 +42,15 @@ namespace UnitTestForLib
             {
                 Directory.CreateDirectory(PathToFolder);
             }
+
             try
             {
-                Task task = new Pipeline().Generate(files,PathToFolder);
+                gen = new TestsGenerator();
+                Task task = new Pipeline().Generate(files, PathToFolder, gen);
                 task.Wait();
                 Assert.True(true);
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
                 Assert.Fail(e.Message);
             }
@@ -55,12 +63,14 @@ namespace UnitTestForLib
             {
                 Directory.CreateDirectory(PathToFolder);
             }
-            Task task = new Pipeline().Generate(files, PathToFolder);
+
+            gen = new TestsGenerator();
+            Task task = new Pipeline().Generate(files, PathToFolder, gen);
             task.Wait();
             generatedFiles = Directory.GetFiles(PathToFolder);
             Assert.AreEqual(generatedFiles.Length, 3, "Wrong number of generated files.");
         }
 
-
     }
+
 }
