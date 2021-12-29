@@ -13,7 +13,7 @@ namespace MainPart
     {
         public Task Generate(IEnumerable<string> files, string pathToGenerated, ITestGenerator generator)
         {
-            var execOptions = new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = 2 };
+            var execOptions = new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = files.Count() };
             var linkOptions = new DataflowLinkOptions { PropagateCompletion = true };
             var downloadStringBlock = new TransformBlock<string, string>
             (
