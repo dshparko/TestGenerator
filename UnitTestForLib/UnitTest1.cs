@@ -32,7 +32,7 @@ namespace UnitTestForLib
         [Test]
         public void FilesNumber()
         {
-            Assert.AreEqual(files.Count(), 2, "Another nuber of files");
+            Assert.AreEqual(files.Count(), 2, "Another number of files");
         }
 
         [Test]
