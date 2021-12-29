@@ -7,25 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2091c7ed-2ed3-4f8b-9ff3-5a7a3b2ab7ea" name="Changes" comment="add interface">
+    <list default="true" id="2091c7ed-2ed3-4f8b-9ff3-5a7a3b2ab7ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestGenerator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainPart/Pipeline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/Pipeline.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/MainPart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/MainPart.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/MainPart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/MainPart.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/TestGeneratorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/TestGeneratorLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/TestGeneratorLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/TestGeneratorLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/ref/MainPart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/bin/Debug/net5.0/ref/MainPart.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainPart/obj/Debug/net5.0/MainPart.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/obj/Debug/net5.0/MainPart.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainPart/obj/Debug/net5.0/MainPart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/obj/Debug/net5.0/MainPart.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainPart/obj/Debug/net5.0/MainPart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/obj/Debug/net5.0/MainPart.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainPart/obj/Debug/net5.0/ref/MainPart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MainPart/obj/Debug/net5.0/ref/MainPart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/bin/Debug/net5.0/TestGeneratorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/bin/Debug/net5.0/TestGeneratorLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/bin/Debug/net5.0/TestGeneratorLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/bin/Debug/net5.0/TestGeneratorLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/bin/Debug/net5.0/ref/TestGeneratorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/bin/Debug/net5.0/ref/TestGeneratorLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/net5.0/TestGeneratorLib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/net5.0/TestGeneratorLib.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/net5.0/TestGeneratorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/net5.0/TestGeneratorLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/net5.0/TestGeneratorLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/net5.0/TestGeneratorLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/net5.0/ref/TestGeneratorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestGeneratorLib/obj/Debug/net5.0/ref/TestGeneratorLib.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +78,8 @@
       <workItem from="1640093739875" duration="17000" />
       <workItem from="1640713030020" duration="1375000" />
       <workItem from="1640766491958" duration="88000" />
+      <workItem from="1640766610201" duration="2938000" />
+      <workItem from="1640784940218" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="add classes2-3">
       <created>1639157124132</created>
@@ -125,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640713404456</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1640766622585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640766622585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +151,7 @@
     <MESSAGE value="add tests" />
     <MESSAGE value="add main part" />
     <MESSAGE value="add interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
